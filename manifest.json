@@ -1,8 +1,8 @@
 ---
 ---
 {
-  "name": "Песенник",
-  "short_name": "МолодёжныйПесенник",
+  "name": "Избранные христианские песни",
+  "short_name": "ИзбранныеПесни",
   "theme_color": "{{ site.themecolor }}",
   "background_color": "#fff",
   "display": "standalone",
