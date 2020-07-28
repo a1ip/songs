@@ -1,7 +1,7 @@
 remote_theme: niklasbuschmann/contrast@v2.8
-title: Песенник
-author: Чисто новороссийская святая молодёжь
-description: Сборник Песен Молодёжи Новороссийской Церкви Евангельских Христиан-Баптистов
+title: Избранные песни
+author: Phil Rigovanov
+description: Избранные христианские песни
 permalink: /:title/
 lang: "ru"
 # baseurl: /songs
@@ -101,12 +101,6 @@ defaults:
   -
     scope:
       path: "offline.md" # Exclude from sitemap.xml
-    values:
-      sitemap:
-        exclude: "yes"
-  -
-    scope:
-      path: "googled65c54092638b5f1.html" # Exclude from sitemap.xml
     values:
       sitemap:
         exclude: "yes"
