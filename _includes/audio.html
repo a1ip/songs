@@ -1,1 +1,1 @@
-<audio src="{{ include.url | relative_url }}" controls loop>Не удалось загрузить песню.</audio>
+<audio src="{{ "/assets/audio/" | append: include.file | relative_url }}" controls loop>Не удалось загрузить песню.</audio>
