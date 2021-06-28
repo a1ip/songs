@@ -56,6 +56,10 @@ defaults:
       path: "images"
     values:
       image: true
+  - scope:
+      path: "assets/audio"
+    values:
+      audio: true
   -
     scope:
       path: "assets" # Exclude from sitemap.xml
