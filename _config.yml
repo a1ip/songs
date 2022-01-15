@@ -4,7 +4,7 @@ author: Phil Rigovanov
 description: Избранные христианские песни
 permalink: /:title/
 lang: "ru"
-# baseurl: /songs
+baseurl: / # baseurl: /songs
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 themecolor: "#40e0d0"
