@@ -1,5 +1,5 @@
 User-agent: *
 Disallow:
-Host: rigovanov.ru
+Host: songs.rigovanov.ru
 
-Sitemap: https://rigovanov.ru/songs/sitemap.xml
+Sitemap: https://songs.rigovanov.ru/sitemap.xml
