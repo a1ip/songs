@@ -1,7 +1,7 @@
 ---
 ---
-const staticCacheName = 'static-cache-rigovanov-songs-v080';
-const dynamicCacheName = 'dynamic-cache-rigovanov-songs-v080';
+const staticCacheName = 'static-cache-rigovanov-songs-v081';
+const dynamicCacheName = 'dynamic-cache-rigovanov-songs-v081';
 
 const staticAssets = [
     '{{ "/" | relative_url }}',
