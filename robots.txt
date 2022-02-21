@@ -1,5 +1,5 @@
 User-agent: *
-Disallow:
+Disallow: /assets/katex/
 Host: songs.rigovanov.ru
 
 Sitemap: https://songs.rigovanov.ru/sitemap.xml
