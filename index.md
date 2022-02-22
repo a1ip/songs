@@ -1,5 +1,6 @@
 ---
 layout: default
+description: Список песен по возрастанию своих порядковых номеров в сборниках
 ---
 
 {% if site.show_excerpts %}
