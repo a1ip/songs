@@ -1,7 +1,7 @@
 ---
 ---
-const staticCacheName = 'static-cache-rigovanov-songs-v108';
-const dynamicCacheName = 'dynamic-cache-rigovanov-songs-v108';
+const staticCacheName = 'static-cache-rigovanov-songs-v109';
+const dynamicCacheName = 'dynamic-cache-rigovanov-songs-v109';
 
 const staticAssets = [
     '{{ "/" | relative_url }}',
@@ -53,8 +53,7 @@ self.addEventListener('activate', async event => {
 
 self.addEventListener('fetch', async event => {
     console.log(`Trying to fetch ${event.request.url}`);
-    event.respondWith(await checkCache(event.request));
-    console.log(`Fetched successfully ${event.request.url}`);
+    event.respondWith(checkCache(event.request));
 });
 
 async function checkCache(req) {
