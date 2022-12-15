@@ -30,7 +30,8 @@ const staticAssets = [
     '{{ "/assets/fontawesome/icons.svg" | relative_url }}',
     '{{ "/favicon.ico" | relative_url }}',
     '{{ "/js/app.js" | relative_url }}',
-    '{{ "/images/no-image.jpg" | relative_url }}'
+    '{{ "/images/no-image.jpg" | relative_url }}',
+    '{{ "/manifest.json" | relative_url }}'
 ];
 
 self.addEventListener('install', async event => {
@@ -53,12 +54,12 @@ self.addEventListener('activate', async event => {
 
 self.addEventListener('fetch', async event => {
     console.log(`Trying to fetch ${event.request.url}`);
-    event.respondWith((await checkCache(event.request)));
+    event.respondWith(checkCache(event.request));
 });
 
 async function checkCache(req) {
     const cachedResponse = await caches.match(req);
-    return cachedResponse || (await checkOnline(req));
+    return cachedResponse || checkOnline(req);
 }
 
 async function checkOnline(req) {
